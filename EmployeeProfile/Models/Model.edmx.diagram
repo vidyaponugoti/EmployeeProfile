@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="62cc7957b520425295d8e856b7931ab0" Name="Diagram1">
+        <EntityTypeShape EntityType="Employee_PortalModel.AsignClienttoEmp" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.Bill" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.ClientMaster" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.Department" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.Designation" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.Employee_Type" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.EmployeeDetail" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.Login" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.RoleMaster" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.SubDepartment" Width="1.5" PointX="0.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.UserRolesMapping" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Employee_PortalModel.User" Width="1.5" PointX="7.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="Employee_PortalModel.FK__AsignClient__EID__5224328E" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__Bill__EID__55009F39" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__ClientMaste__EID__58D1301D" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__EmployeeD__Depar__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__EmployeeD__Emplo__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__EmployeeD__Emplo__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__EmployeeD__Repor__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__EmployeeD__SubDe__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__UserRoles__RoleI__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="Employee_PortalModel.FK__UserRoles__UserI__797309D9" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
